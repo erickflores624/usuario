@@ -1,0 +1,8 @@
+.modal-content{
+    background-image: linear-gradient(to top, #cfd9df 0%, #cfd9df 100%);
+    backdrop-filter: blur(5px);
+}
+
+.is-invalid{
+    border-color: #dc3545;
+}

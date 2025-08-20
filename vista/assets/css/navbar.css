@@ -1,0 +1,6 @@
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: ·0056b3;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

@@ -1,0 +1,76 @@
+
+.accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    position: relative;
+}
+.accordion-button::after {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+article {
+    border-radius: 8px; 
+    padding: 1.5rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 2rem; 
+}
+
+
+h2, h3, h4 {
+    margin-bottom: 1rem; 
+}
+
+h2 {
+    color: #dc3545; 
+    font-weight: bold; 
+}
+
+h3 {
+    color: #f8f9fa;
+    font-weight: normal; 
+}
+
+h4 {
+    color: #ffc107; 
+    font-weight: normal; 
+    margin-bottom: 1.5rem; 
+}
+
+.accordion-button {
+    border: 1px solid #ced4da; 
+    border-radius: 0.25rem; 
+    background-color: #ffffff; 
+    color: #212529; 
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff; 
+    background-color: #c84648;
+    border-color: #c84648;
+}
+
+.accordion-body {
+    background-color: #ffffff; 
+    border: 1px solid #ced4da; 
+    border-radius: 0.25rem; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-outline-info {
+    border-color: #a8bdc2; 
+    color: #000; 
+    
+}
+
+.btn-outline-info:hover {
+    background-color: #a8bdc2; 
+    color: #ffffff; 
+}
+
